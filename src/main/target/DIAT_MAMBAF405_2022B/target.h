@@ -98,7 +98,6 @@
 #define MPU6500_SPI_INSTANCE    ICM42688P_SPI_INSTANCE
 #define MPU_INT_EXTI            ICM42688P_EXTI_PIN
 
-
 // notice - this file was programmatically generated and may need GYRO_2 manually added.
 
 #define USE_I2C
@@ -129,9 +128,7 @@
 #define UART6_RX_PIN         PC7
 #define INVERTER_PIN_UART1   PC0
 #define SERIAL_PORT_COUNT    7
-// notice - UART/USART were programmatically generated - must check USART validity.${hFile}
-// notice - may need "#define SERIALRX_UART SERIAL_PORT_USART_" 
-// notice - should check serial count.
+// notice - UART/USART were programmatically generated - may be incomplete.
 
 //manual
 #define USE_UART1
@@ -141,7 +138,6 @@
 #define USE_UART5
 #define USE_UART6
 #define RSSI_ADC_PIN        PC12  // fport uart5
-
 
 #define VBAT_ADC_PIN PC1
 #define CURRENT_METER_ADC_PIN PC3
