@@ -70,7 +70,7 @@
 #define GYRO_2_ALIGN            GYRO_MPU6000_2_ALIGN
 #define ACC_2_ALIGN             ACC_MPU6000_2_ALIGN
 
-#define ACC_ICM42688P_ALIGN     CW90_DEG 
+#define ACC_ICM42688P_ALIGN     CW90_DEG
 #define GYRO_ICM42688P_ALIGN    CW90_DEG
 #define GYRO_1_ALIGN            ACC_ICM42688P_ALIGN
 #define ACC_1_ALIGN             GYRO_ICM42688P_ALIGN
@@ -147,7 +147,7 @@
 
 #define USE_ADC
 #define ADC_INSTANCE            ADC3
-#define ADC3_DMA_OPT            0  // DMA 2 Stream 0 Channel 2 
+#define ADC3_DMA_OPT            0  // DMA 2 Stream 0 Channel 2
 
 #define CURRENT_METER_ADC_PIN   PC1
 #define VBAT_ADC_PIN            PC2
