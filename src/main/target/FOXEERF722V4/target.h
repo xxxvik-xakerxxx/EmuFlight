@@ -39,6 +39,7 @@
 #define GYRO_MPU6000_ALIGN          CW270_DEG
 #define ACC_MPU6000_ALIGN           CW270_DEG
 
+#define ICM42688P_EXTI_PIN          PC4
 #define ICM42688P_CS_PIN            PB2
 #define ICM42688P_SPI_INSTANCE      SPI1
 #define GYRO_ICM42688P_ALIGN        CW270_DEG
